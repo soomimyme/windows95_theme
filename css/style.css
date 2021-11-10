@@ -28,7 +28,7 @@ html {
 
 body {
   color: var(--font-color-black);
-  font-family: Verdana, Arial, sans-serif;
+  font-family: Verdana, Arial, 'Noto Sans KR', sans-serif;
 }
 
 

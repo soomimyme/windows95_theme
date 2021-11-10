@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - About me</title>
+  <!-- 구글폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- PC.css -->
+  <link rel="stylesheet" href="css/pc.css" media="screen and (min-width:768px)" />
+  <!-- Mobile.css -->
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:767px)" />
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="top-header">
+      <img src="images/notepad.png" alt="메모장 아이콘" />
+      <p><a href="index.html">My Portfolio</a></p>
+    </div>
+
+    <nav id="gnb">
+      <ul class="depth1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li>
+          <a href="#">Webpage</a>
+          <ul class="depth2">
+            <li><a href="roche.html">한국로슈 (Roche)</a></li>
+            <li><a href="#">The National Gallery</a></li>
+            <li><a href="#">일진 머티리얼즈</a></li>
+            <li><a href="#">풀무원</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">UI/UX</a>
+          <ul class="depth2">
+            <li><a href="#">모바일 청첩장 (Wedding-Card)</a></li>
+            <li><a href="#">오늘의 배달 (Delivery app)</a></li>
+            <li><a href="#">샤넬 (Chanel)</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Design</a>
+          <ul class="depth2">
+            <li><a href="#">리플렛 (Leaflet)</a></li>
+            <li><a href="#">포스터 (Poster)</a></li>
+            <li><a href="#">배너 (Banner)</a></li>
+            <li><a href="#">레이아웃 (Layout)</a></li>
+            <li><a href="#">책 (Book)</a></li>
+            <li><a href="#">CI</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <a href="#" class="mobile_toggleBtn">
+        <img src="images/btn_start.png" alt="메뉴아이콘" />
+      </a>
+    </nav>
+  </header>
+
+
+  <section id="aboutme">
+    <div class="container">
+      <div class="flex_box">
+        <div class="photo_box">
+          <div class="deco_border"></div>
+          <img src="images/profile_pic.jpg" alt="내사진">
+          <div class="deco_border"></div>
+        </div>
+
+        <div class="profile_box">
+          <h3>최수미       <span>|</span>        1992.08.20</h3>
+          <ul class="profile_list">
+            <h4>Education</h4>
+            <li>
+              <span class="date">2021.07.07 ~ 2021.11.16</span>
+              <br>김포 이젠 아카데미학원<br> 
+              [디지털디자인] 모바일 UI/UX 반응형 웹디자인(웹퍼블리셔)
+            </li>
+            <li>
+              <span class="date">2016.09.05 ~ 2016.12.29</span>
+              <br>김포 예일직업능력교육원<br>
+              편집디자인 양성(디지털퍼블리싱)
+            </li>
+          </ul>
+          <ul class="profile_list">
+            <h4>Certification</h4>
+            <li>컴퓨터그래픽스운용기능사</li>
+          </ul>
+          <ul class="profile_list">
+            <h4>Skills</h4>
+            <li>Photoshop      Illustrator      XD      HTML      CSS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <button class="btn_contact">
+      <a href="tel:010-2434-5702">
+        <img src="images/bell.png" alt="전화기아이콘">
+        <p>Contact</p>
+      </a>
+    </button>
+    <p id="email">tnal820@naver.com</p>
+  </footer>
+</body>
+</html>
