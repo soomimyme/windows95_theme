@@ -1,4 +1,5 @@
 # Portfolio
+- URL : https://soomimyme.github.io/Portfolio/
 
 ### 1. Title
 
@@ -24,4 +25,4 @@
 - 배너
 - 북디자인
 
-### 6. Contact (옵션)
+### 6. Contact (footer)
