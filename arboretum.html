@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - 국립수목원</title>
+  <!-- 구글폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+   <!-- Webpage -->
+  <link rel="stylesheet" href="css/webpage.css">
+  <!-- PC.css -->
+  <link rel="stylesheet" href="css/pc.css" media="screen and (min-width:768px)">
+  <!-- Mobile.css -->
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:767px)">
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="top-header">
+      <img src="images/notepad.png" alt="메모장 아이콘" />
+      <p><a href="index.html">My Portfolio</a></p>
+    </div>
+
+    <nav id="gnb">
+      <ul class="depth1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li>
+          <a href="#">Webpage</a>
+          <ul class="depth2">
+            <li><a href="roche.html">한국로슈 (Roche)</a></li>
+            <li><a href="national_gallery.html">The National Gallery</a></li>
+            <li><a href="iljin_materials.html">일진 머티리얼즈</a></li>
+            <li><a href="arboretum.html">국립수목원</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">UI/UX</a>
+          <ul class="depth2">
+            <li><a href="wedding-card.html">모바일 청첩장 (Wedding-Card)</a></li>
+            <li><a href="#">오늘의 배달 (Delivery app)</a></li>
+            <li><a href="#">샤넬 (Chanel)</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Design</a>
+          <ul class="depth2">
+            <li><a href="#">리플렛 (Leaflet)</a></li>
+            <li><a href="#">포스터 (Poster)</a></li>
+            <li><a href="#">배너 (Banner)</a></li>
+            <li><a href="#">레이아웃 (Layout)</a></li>
+            <li><a href="#">책 (Book)</a></li>
+            <li><a href="#">CI</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <a href="#" class="mobile_toggleBtn">
+        <img src="images/btn_start.png" alt="메뉴아이콘" />
+      </a>
+    </nav>
+  </header>
+
+  <section id="webpage">
+    <div class="container">
+      <div class="container_box">
+        <div class="info_box">
+          <div class="info_header">
+            <p>Responsive Homepage</p>
+          </div>
+          <div class="flex_box">
+            <img id="arboretum" src="images/arboretum.jpg" alt="국립수목원">
+            <div class="txt_info_03">
+              <h1>국립수목원</h1>
+              <ul id="tool">Tool
+                <li><img src="images/Adobe_Photoshop_CC.png" alt="포토샵"></li>
+                <li><img src="images/Visual_Studio_Code.png" alt="VSC"></li>
+                <li><img src="images/html5_icon.png" alt="HTML"></li>
+                <li><img src="images/CSS3_logo.png" alt="CSS"></li>
+              </ul>
+              <ul id="color_arboretum">Color
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+              </ul>
+              <ul id="composition">Composition
+                <li>
+                  <p>메인페이지 (반응형)</p>
+                </li>
+              </ul>
+              <div class="description">
+                <div class="description_shadow">
+                  <p>
+                    국립수목원 사이트를 반응형 홈페이지로 리뉴얼하였습니다. <br>
+                    불필요한 정보가 메인페이지에 두서없이 나열되어 있던 기존의 포맷과는 다르게 <br>
+                    반응형임을 고려하여 독자로 하여금 알고 싶은 정보만 심플하게 간추려서
+                    레이아웃을 <br> 구성하였고, 우측 하단에 스크롤 버튼을 고정하여 기능성을 높였습니다.
+                  </p>
+                </div>
+              </div>
+              <button class="btn_link_arboretum">
+                <a href="https://soomimyme.github.io/National_Arboretum/" target="blink">바로 가기</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <button class="btn_contact">
+      <a href="mailto:tnal820@naver.com">
+        <img src="images/email_icon.png" alt="이메일">
+        <p>Contact</p>
+      </a>
+    </button>
+    <p id="email">tnal820@naver.com</p>
+  </footer>
+</body>
+
+</html>

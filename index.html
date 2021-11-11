@@ -1,89 +1,83 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    <!-- PC.css -->
-    <link
-      rel="stylesheet"
-      href="css/pc.css"
-      media="screen and (min-width:768px)"
-    />
-    <!-- Mobile.css -->
-    <link
-      rel="stylesheet"
-      href="css/mobile.css"
-      media="screen and (max-width:767px)"
-    />
-    <!-- 제이쿼리 -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
 
-  <body>
-    <header id="main-header">
-      <div class="top-header">
-        <img src="images/notepad.png" alt="메모장 아이콘" />
-        <p><a href="index.html">My Portfolio</a></p>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- PC.css -->
+  <link rel="stylesheet" href="css/pc.css" media="screen and (min-width:768px)" />
+  <!-- Mobile.css -->
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:767px)" />
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
 
-      <nav id="gnb">
-        <ul class="depth1">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">About me</a></li>
-          <li>
-            <a href="#">Webpage</a>
-            <ul class="depth2">
-              <li><a href="roche.html">한국로슈 (Roche)</a></li>
-              <li><a href="#">The National Gallery</a></li>
-              <li><a href="#">일진 머티리얼즈</a></li>
-              <li><a href="#">풀무원</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">UI/UX</a>
-            <ul class="depth2">
-              <li><a href="#">모바일 청첩장 (Wedding-Card)</a></li>
-              <li><a href="#">오늘의 배달 (Delivery app)</a></li>
-              <li><a href="#">샤넬 (Chanel)</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Design</a>
-            <ul class="depth2">
-              <li><a href="#">리플렛 (Leaflet)</a></li>
-              <li><a href="#">포스터 (Poster)</a></li>
-              <li><a href="#">배너 (Banner)</a></li>
-              <li><a href="#">레이아웃 (Layout)</a></li>
-              <li><a href="#">책 (Book)</a></li>
-              <li><a href="#">CI</a></li>
-            </ul>
-          </li>
-        </ul>
+<body>
+  <header id="main-header">
+    <div class="top-header">
+      <img src="images/notepad.png" alt="메모장 아이콘" />
+      <p><a href="index.html">My Portfolio</a></p>
+    </div>
 
-        <a href="#" class="mobile_toggleBtn">
-          <img src="images/btn_start.png" alt="메뉴아이콘">
-        </a>
-      </nav>
-    </header>
+    <nav id="gnb">
+      <ul class="depth1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li>
+          <a href="#">Webpage</a>
+          <ul class="depth2">
+            <li><a href="roche.html">한국로슈 (Roche)</a></li>
+            <li><a href="national_gallery.html">The National Gallery</a></li>
+            <li><a href="iljin_materials.html">일진 머티리얼즈</a></li>
+            <li><a href="arboretum.html">국립수목원</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">UI/UX</a>
+          <ul class="depth2">
+            <li><a href="wedding-card.html">모바일 청첩장 (Wedding-Card)</a></li>
+            <li><a href="#">오늘의 배달 (Delivery app)</a></li>
+            <li><a href="#">샤넬 (Chanel)</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Design</a>
+          <ul class="depth2">
+            <li><a href="#">리플렛 (Leaflet)</a></li>
+            <li><a href="#">포스터 (Poster)</a></li>
+            <li><a href="#">배너 (Banner)</a></li>
+            <li><a href="#">레이아웃 (Layout)</a></li>
+            <li><a href="#">책 (Book)</a></li>
+            <li><a href="#">CI</a></li>
+          </ul>
+        </li>
+      </ul>
 
-    <section id="home">
-      <div class="container">
-        <h1>PORTFOLIO</h1>
-        <h5>최수미</h5>
-      </div>
-    </section>
+      <a href="#" class="mobile_toggleBtn">
+        <img src="images/btn_start.png" alt="메뉴아이콘">
+      </a>
+    </nav>
+  </header>
 
-    <footer>
-        <button class="btn_contact">
-          <a href="tel:010-2434-5702">
-            <img src="images/bell.png" alt="전화기아이콘">
-            <p>Contact</p>
-          </a>  
-        </button>
-      <p id="email">tnal820@naver.com</p>
-    </footer>    
-  </body>
+  <section id="home">
+    <div class="container">
+      <h1>PORTFOLIO</h1>
+      <h5>최수미</h5>
+    </div>
+  </section>
+
+  <footer>
+    <button class="btn_contact">
+      <a href="mailto:tnal820@naver.com">
+        <img src="images/email_icon.png" alt="이메일">
+        <p>Contact</p>
+      </a>
+    </button>
+    <p id="email">tnal820@naver.com</p>
+  </footer>
+</body>
+
 </html>

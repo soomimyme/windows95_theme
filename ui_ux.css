@@ -1,0 +1,31 @@
+/* UI/UX 작업물 stylesheet */
+
+#color_wedding li {
+  margin-right: 10px;
+}
+
+#color_wedding li:first-child {
+  margin-left: 28px;
+  background: #fff;
+}
+
+#color_wedding li:nth-child(2) {
+  background: #EFF1E4;
+}
+
+#color_wedding li:nth-child(3) {
+  background: #ECE4EC;
+}
+
+#color_wedding li:nth-child(4) {
+  background: #6C774A;
+}
+
+#color_wedding li:last-child {
+  background: #000;
+}
+
+.description_shadow .wedding_txt {
+  margin-top: 38px;
+  margin-left: 25px;
+}

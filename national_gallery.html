@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - The National Gallery</title>
+  <!-- 구글폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Webpage -->
+  <link rel="stylesheet" href="css/webpage.css">
+  <!-- PC.css -->
+  <link rel="stylesheet" href="css/pc.css" media="screen and (min-width:768px)">
+  <!-- Mobile.css -->
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:767px)">
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="top-header">
+      <img src="images/notepad.png" alt="메모장 아이콘" />
+      <p><a href="index.html">My Portfolio</a></p>
+    </div>
+
+    <nav id="gnb">
+      <ul class="depth1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li>
+          <a href="#">Webpage</a>
+          <ul class="depth2">
+            <li><a href="roche.html">한국로슈 (Roche)</a></li>
+            <li><a href="national_gallery.html">The National Gallery</a></li>
+            <li><a href="iljin_materials.html">일진 머티리얼즈</a></li>
+            <li><a href="arboretum.html">국립수목원</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">UI/UX</a>
+          <ul class="depth2">
+            <li><a href="#">모바일 청첩장 (Wedding-Card)</a></li>
+            <li><a href="#">오늘의 배달 (Delivery app)</a></li>
+            <li><a href="#">샤넬 (Chanel)</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Design</a>
+          <ul class="depth2">
+            <li><a href="#">리플렛 (Leaflet)</a></li>
+            <li><a href="#">포스터 (Poster)</a></li>
+            <li><a href="#">배너 (Banner)</a></li>
+            <li><a href="#">레이아웃 (Layout)</a></li>
+            <li><a href="#">책 (Book)</a></li>
+            <li><a href="#">CI</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <a href="#" class="mobile_toggleBtn">
+        <img src="images/btn_start.png" alt="메뉴아이콘" />
+      </a>
+    </nav>
+  </header>
+
+
+  <section id="webpage">
+    <div class="container">
+      <div class="container_box">
+        <div class="info_box">
+          <div class="info_header">
+            <p>Redesign & Publishing</p>
+          </div>
+          <div class="flex_box">
+            <div class="flex_column">
+              <img id="national_gallery" src="images/the_national_gallery.jpg" alt="내셔널갤러리">
+              <div class="description">
+                <div class="description_shadow">
+                  <p>
+                    기존에 있는 The National Gallery 홈페이지를 리뉴얼하였습니다. <br>
+                    시안작업 없이 바로 HTML과 CSS를 사용하여 꾸며보았습니다. GNB 메뉴가 많아 <br>
+                    세로로 내려서 시각적으로 답답함이 없게 변화를 주었고 배경에 The National Gallery <br>
+                    관련 이미지를 채워 넣어 마치 갤러리에 와있는 듯한 현실적인 느낌을 유도하였습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="txt_info_02">
+              <h1>The National Gallery</h1>
+              <ul id="tool">Tool
+                <li><img src="images/Visual_Studio_Code.png" alt="VSC"></li>
+                <li><img src="images/html5_icon.png" alt="HTML"></li>
+                <li><img src="images/CSS3_logo.png" alt="CSS"></li>
+                <li><img src="images/js.png" alt="JS"></li>
+              </ul>
+              <ul id="color">Color
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+              </ul>
+              <ul id="composition">Composition
+                <li>
+                  <p>메인페이지</p>
+                </li>
+              </ul>
+
+              <button class="btn_link">
+                <a href=" https://soomimyme.github.io/Roche/" target="blink">바로 가기</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <button class="btn_contact">
+      <a href="mailto:tnal820@naver.com">
+        <img src="images/email_icon.png" alt="이메일">
+        <p>Contact</p>
+      </a>
+    </button>
+    <p id="email">tnal820@naver.com</p>
+  </footer>
+</body>
+
+</html>
