@@ -4,7 +4,8 @@
   margin-right: 10px;
 }
 
-#color_wedding li:first-child {
+#color_wedding li:first-child,
+#color_delivery li:first-child {
   margin-left: 28px;
   background: #fff;
 }
@@ -25,7 +26,32 @@
   background: #000;
 }
 
+#color_delivery li {
+  margin-right: 10px;
+}
+
+#color_delivery li:nth-child(2) {
+  background: #E1EEF6;
+}
+
+#color_delivery li:nth-child(3) {
+  background: #FCBE32;
+}
+
+#color_delivery li:nth-child(4) {
+  background: #FF5F2E;
+}
+
+#color_delivery li:last-child {
+  background: #004E66;
+}
+
 .description_shadow .wedding_txt {
   margin-top: 38px;
   margin-left: 25px;
+}
+
+.description_shadow .delivery_txt {
+  margin-top: 11px;
+  margin-left: 12px;
 }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Porfolio - 오늘의 배달</title>
+  <!-- 구글폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- UI/UX -->
+  <link rel="stylesheet" href="css/ui_ux.css">
+  <!-- Webpage -->
+  <link rel="stylesheet" href="css/webpage.css">
+  <!-- PC.css -->
+  <link rel="stylesheet" href="css/pc.css" media="screen and (min-width:768px)">
+  <!-- Mobile.css -->
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:767px)">
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <header id="main-header">
+    <div class="top-header">
+      <img src="images/notepad.png" alt="메모장 아이콘" />
+      <p><a href="index.html">My Portfolio</a></p>
+    </div>
+
+    <nav id="gnb">
+      <ul class="depth1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li>
+          <a href="#">Webpage</a>
+          <ul class="depth2">
+            <li><a href="roche.html">한국로슈 (Roche)</a></li>
+            <li><a href="national_gallery.html">The National Gallery</a></li>
+            <li><a href="iljin_materials.html">일진 머티리얼즈</a></li>
+            <li><a href="arboretum.html">국립수목원</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">UI/UX</a>
+          <ul class="depth2">
+            <li><a href="wedding-card.html">모바일 청첩장 (Wedding-Card)</a></li>
+            <li><a href="delivery.html">오늘의 배달 (Delivery app)</a></li>
+            <li><a href="#">샤넬 (Chanel)</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Design</a>
+          <ul class="depth2">
+            <li><a href="#">리플렛 (Leaflet)</a></li>
+            <li><a href="#">포스터 (Poster)</a></li>
+            <li><a href="#">배너 (Banner)</a></li>
+            <li><a href="#">레이아웃 (Layout)</a></li>
+            <li><a href="#">책 (Book)</a></li>
+            <li><a href="#">CI</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <a href="#" class="mobile_toggleBtn">
+        <img src="images/btn_start.png" alt="메뉴아이콘" />
+      </a>
+    </nav>
+  </header>
+
+
+  <section id="webpage">
+    <div class="container">
+      <div class="container_box">
+        <div class="info_box">
+          <div class="info_header">
+            <p>Design</p>
+          </div>
+          <div class="flex_box">
+            <img id="delivery" src="images/todays_delivery.jpg" alt="오늘의 배달">
+            <div class="txt_info">
+              <h1>오늘의 배달</h1>
+              <ul id="tool">Tool
+                <li><img src="images/Adobe_Photoshop_CC.png" alt="포토샵"></li>
+                <li><img src="images/Adobe_XD_CC_icon.png" alt="XD"></li>
+              </ul>
+              <ul id="color_delivery">Color
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+                <li>
+                  <div class="palette"></div>
+                </li>
+              </ul>
+              <ul id="composition">Composition
+                <li>
+                  <p>시작화면    /    홈    /    메뉴 카테고리    /    음식점 선택    / <br>주문하기    /    주문완료</p>
+                </li>
+              </ul>
+              <div class="description">
+                <div class="description_shadow">
+                  <p class="delivery_txt">
+                    오늘의 배달이란 배달앱 UI/UX를 디자인하였습니다. 메인 로고를 홈아이콘으로
+                    사용하여 <br> 포인트를 주었고 검색기능을 홈화면에 넣어 바로 먹고 싶은 음식
+                    키워드를 검색하여 취향에 맞는 가게를 찾을 수 있게 구성하였습니다. 로고에
+                    들어간 컬러를 최대 사용 색상 범위로 지정하여 전체적으로 통일감을 높였고 끝이 둥근
+                    폰트를 사용하여 사용자로 하여금 친근함을 느끼도록 유도하였습니다.
+                  </p>
+                </div>
+              </div>
+              <button class="btn_link">
+                <a href="detail_img.html" target="blink">자세히 보기</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer>
+    <button class="btn_contact">
+      <a href="mailto:tnal820@naver.com">
+        <img src="images/email_icon.png" alt="이메일">
+        <p>Contact</p>
+      </a>
+    </button>
+    <p id="email">tnal820@naver.com</p>
+  </footer>
+</body>
+</html>
